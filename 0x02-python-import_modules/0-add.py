@@ -10,4 +10,4 @@ if __name__ == "__main__":
     Prints the result of the addition between two numbers
 
     """
-    print(f'{a} + {b} = {add(a, b)}')
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
