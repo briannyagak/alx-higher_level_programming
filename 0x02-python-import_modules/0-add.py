@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-from add_0 import add
-if __name__ == "__main__":
+import add_0
 
-
-    a = 1
-    b = 2
-    """
+a = 1
+b = 2
+"""
 
     Prints the result of the addition between two numbers
 
-    """
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+"""
+print("{:d} + {:d} = {:d}".format(a, b, add_0.add(a, b)))
