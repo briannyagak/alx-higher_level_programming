@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def add(a, b):
-    return a+b
+import add_0
 
 a = 1
 b = 2
-c = add(a, b)
+c = add_0.add(a, b)
+
 print(f'{a} + {b} = {c}')
